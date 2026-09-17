@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday My Love ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-heart">❤️</div>
+        <h2>Preparing Your Surprise...</h2>
+    </div>
+
+    <!-- Music -->
+    <audio id="birthdayMusic" loop>
+    <source src="./music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+
+    
+
+    <!-- Floating Hearts -->
+    <div id="hearts"></div>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="mini-title">
+                ✨ A SPECIAL DAY FOR SOMEONE SPECIAL ✨
+            </p>
+
+            <h1>
+                Happy Birthday
+            </h1>
+
+            <!-- CHANGE NAME -->
+            <h2 class="name">
+                My Love ❤️
+            </h2>
+
+            <p class="hero-text">
+                Today is not just another day...
+                <br>
+                Today is the day the most special person
+                in my life was born. 💕
+            </p>
+
+            <button class="start-btn" onclick="startSurprise()">
+                💖 Start Your Surprise
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- COUNTDOWN -->
+    <section class="countdown-section">
+
+        <h2>⏳ Counting Down To Your Special Moment</h2>
+
+        <div class="countdown">
+
+            <div class="time-box">
+                <span id="days">00</span>
+                <small>Days</small>
+            </div>
+
+            <div class="time-box">
+                <span id="hours">00</span>
+                <small>Hours</small>
+            </div>
+
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <small>Minutes</small>
+            </div>
+
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <small>Seconds</small>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CAKE -->
+    <section class="cake-section">
+
+        <h2>🎂 Make A Wish</h2>
+
+        <div class="cake">
+
+            <div class="candle candle1">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle candle2">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle candle3">
+                <div class="flame"></div>
+            </div>
+
+            <div class="cake-top"></div>
+
+            <div class="cake-body">
+                <div class="cream"></div>
+                <div class="cream cream2"></div>
+            </div>
+
+            <div class="plate"></div>
+
+        </div>
+
+        <button class="wish-btn" onclick="blowCandles()">
+            🕯️ Make A Wish
+        </button>
+
+    </section>
+
+
+    <!-- MEMORY -->
+    <section class="memory-section">
+
+        <p class="section-mini">
+            OUR BEAUTIFUL MEMORIES
+        </p>
+
+        <h2>📸 Our Little World</h2>
+
+        <div class="gallery">
+
+            <div class="photo-card">
+                <img src="s2.jpeg" alt="Memory 1">
+                <div class="photo-text">
+                    Our First Memory ❤️
+                </div>
+            </div>
+
+            <div class="photo-card">
+                <img src="s3.jpeg" alt="Memory 2">
+                <div class="photo-text">
+                    Beautiful Moments 💕
+                </div>
+            </div>
+
+            <div class="photo-card">
+                <img src="s4.jpeg" alt="Memory 3">
+                <div class="photo-text">
+                    Forever Together 🥰
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LOVE LETTER -->
+    <section class="letter-section">
+
+        <div class="letter">
+
+            <p class="section-mini">
+                A LITTLE MESSAGE FOR YOU
+            </p>
+
+            <h2>💌 My Love Letter</h2>
+
+            <p id="typingText"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SURPRISE -->
+    <section class="surprise-section">
+
+        <h2>🎁 One Last Surprise</h2>
+
+        <p>
+            There is something I want to tell you...
+        </p>
+
+        <button onclick="openSurprise()">
+            💝 Open My Heart
+        </button>
+
+        <div id="secretMessage">
+
+            <h2>❤️ I LOVE YOU ❤️</h2>
+
+            <p>
+                You are not just my boyfriend.
+                You are my happiness, my favorite person,
+                my safe place and one of the most beautiful
+                parts of my life.
+                <br><br>
+                I hope this birthday brings you endless
+                happiness, success and beautiful memories.
+                <br><br>
+                I want to celebrate not just this birthday,
+                but many, many birthdays with you. 🥰
+                <br><br>
+                Happy Birthday, My Love! 🎂❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        Made with ❤️ especially for you
+
+        <br><br>
+
+        Forever & Always 💕
+        
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
